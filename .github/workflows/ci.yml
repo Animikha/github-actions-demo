@@ -37,3 +37,4 @@ jobs:
           echo "Add other actions to build,"
           echo "test, and deploy your project."
           echo "$HIS_NAME"
+          echo "${{ secrets.MY_SECRET}}"
