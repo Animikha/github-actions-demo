@@ -38,3 +38,5 @@ jobs:
           echo "test, and deploy your project."
           echo "$HIS_NAME"
           echo "${{ secrets.MY_SECRET}}"
+          echo "${{ secrets.SECRET_2}}"
+          
